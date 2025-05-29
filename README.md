@@ -1,10 +1,11 @@
 <div align="center">
-  <div style="display: flex; align-items: center; justify-content: center;">
+  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; text-align: left;">
     <img src="assets/icon.png" alt="logo" height="80" style="margin-right: 20px;">
-    <div style="font-size: 40px; font-weight: bold;">
+    <h1 style="font-size: 40px; font-weight: bold; margin: 0;">
       Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL
-    </div>
+    </h1>
   </div>
+</div>
 
   <br>
 
