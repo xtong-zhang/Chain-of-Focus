@@ -5,7 +5,7 @@
       Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL
     </h1>
   </div>
-</div>
+
 
   <br>
 
