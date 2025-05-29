@@ -22,17 +22,17 @@
 <br>
 <span>
 <b>Authors:</b> 
-<a class="name" target="_blank" href="https://github.com/xtong-zhang">Xintong Zhang<sup>1,2*</sup></a>, 
-<a class="name" target="_blank" href="https://zhigao2017.github.io/">Zhi Gao<sup>2,3*</sup></a>, 
-<a class="name" target="_blank" href="https://bofei5675.github.io/">Bofei Zhang<sup>2</sup></a>, 
-<a class="name" target="_blank" href="https://pengxiang-li.github.io/">Pengxiang Li<sup>1,2</sup></a>, 
-<a class="name" target="_blank" href="https://adatwi.github.io/">Xiaowen Zhang<sup>2</sup></a>, 
-<a class="name" target="_blank" href="https://adatwi.github.io/">Yang Liu<sup>2</sup></a>, 
-<a class="name" target="_blank" href="https://adatwi.github.io/">Tao Yuan<sup>2</sup></a>, 
-<a class="name" target="_blank" href="https://wu-yuwei-bit.github.io/">Yuwei Wu<sup>1,4†</sup></a>, 
-<a class="name" target="_blank" href="https://scholar.google.com/citations?user=Sl6TV7gAAAAJ&hl=en">Yunde Jia<sup>4</sup></a>, 
-<a class="name" target="_blank" href="https://www.zhusongchun.net/">Song-Chun Zhu<sup>2,3,5</sup></a>, 
-<a class="name" target="_blank" href="https://liqing.io/">Qing Li<sup>2†</sup></a>
+<a class="name" target="_blank" href="https://github.com/xtong-zhang">Xintong Zhang<sup>*</sup></a>, 
+<a class="name" target="_blank" href="https://zhigao2017.github.io/">Zhi Gao<sup>*</sup></a>, 
+<a class="name" target="_blank" href="https://bofei5675.github.io/">Bofei Zhang</a>, 
+<a class="name" target="_blank" href="https://pengxiang-li.github.io/">Pengxiang Li</a>, 
+<a class="name" target="_blank" href="https://adatwi.github.io/">Xiaowen Zhang</a>, 
+<a class="name" target="_blank" href="https://adatwi.github.io/">Yang Liu</a>, 
+<a class="name" target="_blank" href="https://adatwi.github.io/">Tao Yuan</a>, 
+<a class="name" target="_blank" href="https://wu-yuwei-bit.github.io/">Yuwei Wu<sup>†</sup></a>, 
+<a class="name" target="_blank" href="https://scholar.google.com/citations?user=Sl6TV7gAAAAJ&hl=en">Yunde Jia</a>, 
+<a class="name" target="_blank" href="https://www.zhusongchun.net/">Song-Chun Zhu</a>, 
+<a class="name" target="_blank" href="https://liqing.io/">Qing Li<sup>†</sup></a>
 <br>
 <sup>*</sup>Equal Contribution. 
 <sup>†</sup>Corresponding Author.
