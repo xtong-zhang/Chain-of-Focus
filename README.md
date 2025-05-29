@@ -1,7 +1,7 @@
 <div align="center">
   <div style="display: flex; align-items: center; justify-content: center;">
     <img src="assets/icon.png" alt="logo" height="80" style="margin-right: 20px;">
-    <div style="font-size: 32px; font-weight: bold;">
+    <div style="font-size: 40px; font-weight: bold;">
       Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL
     </div>
   </div>
