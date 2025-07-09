@@ -1,0 +1,17 @@
+{
+  "cof-sft-data-5.4k": {
+    "file_name": "/your/path/to/cof_sft_data_5.4k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "system_tag": "system",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }
+}

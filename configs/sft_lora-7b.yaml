@@ -1,0 +1,62 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-VL-7B-Instruct
+image_max_pixels: 14745600   # 3840*3840
+image_min_pixels: 12544   # 112*112
+
+trust_remote_code: true
+
+deepspeed: ./LLaMA-Factory/examples/deepspeed/ds_z3_config.json
+flash_attn: fa2
+enable_liger_kernel: true
+use_unsloth_gc: false
+use_unsloth: false
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 32
+lora_target: all
+freeze_vision_tower: true
+freeze_multi_modal_projector: false 
+freeze_language_model: false 
+
+
+### dataset
+dataset: cof-sft-data-5.4k # name of the dataset in dataset_info.json
+dataset_dir: /your/path/to/images # path to the dataset
+template: qwen2_vl
+cutoff_len: 81920
+# max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 512
+
+### output
+output_dir: /your/path/to/output
+
+logging_steps: 1
+save_steps: 100
+save_total_limit: 50
+save_strategy: steps
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+# val_size: 0.1
+# per_device_eval_batch_size: 4
+# eval_strategy: steps
+# eval_steps: 50
+
+report_to: wandb
+run_name: cof-sft-7b-32rank-lora
