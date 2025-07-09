@@ -77,8 +77,7 @@ Please follow the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) repo
 
 ### Data Preparation
 
-1. Download the dataset (including images and annotations) from:  
-  [Hugging Face – Cof SFT Dataset](https://huggingface.co/datasets/xintongzhang/CoF-SFT-Data-5.4k)
+1. Download the dataset (including images and annotations) from [Hugging Face – Cof SFT Dataset](https://huggingface.co/datasets/xintongzhang/CoF-SFT-Data-5.4k)
 
 2. Modify the configuration file `configs/sft_lora-7b.yaml` to match your data paths and training settings.
 3. Copy `configs/dataset_info.json` to your image folder.
