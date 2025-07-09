@@ -14,7 +14,13 @@
     <img src="https://img.shields.io/badge/ArXiv-CoF-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://cof-reasoning.github.io/">
-    <img src="https://img.shields.io/badge/Website-ProjectPage-yellow" alt="ProjectPage">
+    <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="ProjectPage">
+  </a>
+  <a href="https://huggingface.co/xintongzhang/CoF-sft-model-7b">
+    <img src="https://img.shields.io/badge/🤗 huggingface-Model-yellow" alt="Model">
+  </a>
+  <a href="https://huggingface.co/datasets/xintongzhang/CoF-SFT-Data-5.4k">
+    <img src="https://img.shields.io/badge/🤗 huggingface-Dataset-purple" alt="Dataset">
   </a>
 </div>
 
@@ -43,6 +49,7 @@
 - [2025/05/21] We released our paper — discussions and feedback are warmly welcome!
 - [2025/07/09] We released our SFT dataset, model, training, and evaluation code. Welcome to download and explore them.
 
+<br>
 
 # Overview
 
@@ -58,7 +65,7 @@ Vision language models (VLMs) have achieved impressive performance across a vari
 ## Framework
 ![framework](./assets/model_inference.jpg)
 
-
+<br>
 
 # Training
 
@@ -85,8 +92,7 @@ conda activate llamafactory
 bash ./slurm_jobs/sft/train_7b_lora.sh
 ```
 
-
-
+<br>
 
 # Evaluation
 
