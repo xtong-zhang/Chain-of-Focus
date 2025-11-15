@@ -46,7 +46,7 @@
 
 
 # 🔥News
-- [2025/07/09] We released our RL dataset, model, training code, welcome to download and explore them.
+- [2025/11/15] We released our RL dataset, model, training code, welcome to download and explore them.
 welcome!
 - [2025/07/09] We released our SFT dataset, model, training, and evaluation code. Welcome to download and explore them.
 - [2025/05/21] We released our paper — discussions and feedback are warmly welcome!
