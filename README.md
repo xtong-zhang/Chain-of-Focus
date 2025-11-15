@@ -91,6 +91,27 @@ conda activate llamafactory
 bash ./slurm_jobs/sft/train_7b_lora.sh
 ```
 
+## RL Stage
+
+### Installation
+
+Please follow the [verl](https://github.com/volcengine/verl) repository to install the environment.
+
+### Data Preparation
+
+Download the dataset (including images and annotations) from [Hugging Face – CoF RL Dataset](https://huggingface.co/datasets/xintongzhang/CoF-RL-Data)
+
+
+### Launch Training
+
+Training can be started with the following script.
+
+```bash
+conda activate verl
+cd ./verl
+bash ./slurm_jobs/rl/run.sh
+```
+
 <br>
 
 # Evaluation
