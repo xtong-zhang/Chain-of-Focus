@@ -16,7 +16,7 @@
   <a href="https://cof-reasoning.github.io/">
     <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="ProjectPage">
   </a>
-  <a href="https://huggingface.co/xintongzhang/CoF-sft-model-7b">
+  <a href="https://huggingface.co/xintongzhang/CoF-rl-model-7b">
     <img src="https://img.shields.io/badge/🤗 huggingface-Model-yellow" alt="Model">
   </a>
   <a href="https://huggingface.co/datasets/xintongzhang/CoF-SFT-Data-5.4k">
