@@ -58,7 +58,7 @@ welcome!
 ![overview](./assets/teaser.jpg)
 
 <details><summary>Abstract</summary> 
-Vision language models (VLMs) have achieved impressive performance across a variety of computer vision tasks. However, the multimodal reasoning capability has not been fully explored in existing models. In this paper, we propose a Chain-of-Focus (CoF) method that allows VLMs to perform adaptive focusing and zooming in on key image regions based on obtained visual cues and the given questions, achieving efficient multimodal reasoning. To enable this CoF capability, we present a two-stage training pipeline, including supervised fine-tuning (SFT) and reinforcement learning (RL). In the SFT stage, we construct the MM-CoF dataset, comprising 3K samples derived from a visual agent designed to adaptively identify key regions to solve visual tasks with different image resolutions and questions. We use MM-CoF to fine-tune the Qwen2.5-VL model for cold start. In the RL stage, we leverage the outcome accuracies and formats as rewards to update the Qwen2.5-VL model, enabling further refining the search and reasoning strategy of models without human priors. Our model achieves significant improvements on multiple benchmarks. On the V* benchmark that requires strong visual reasoning capability, our model outperforms existing VLMs by 5% among 8 image resolutions ranging from 224 to 4K, demonstrating the effectiveness of the proposed CoF method and facilitating the more efficient deployment of VLMs in practical applications.
+Vision Language Models (VLMs) have achieved remarkable success, particularly with "think-with-image" paradigms that enhance reasoning by actively image zooming to explore visual details, moving beyond reliance on purely textual thought processes. However, this approach presents a challenge in balancing performance with efficiency, as proactive zooming incurs massive computational costs and may impair global understanding. To address this problem, we introduce adaptive chain-of-focus (Adaptive-CoF), a framework that teaches VLMs to perform visual search and zooming only when necessary, based on obtained visual cues and the given questions, achieving efficient multimodal reasoning. We enable this capability through a two-stage pipeline: (1) supervised fine-tuning on an introduced MM-Adaptive-CoF SFT dataset that is constructed by a visual search agent with multi-step reasoning trajectories under diverse resolutions and question complexities, and (2) reinforcement learning with an adaptive group-aware reward (AGAR) on MM-Adaptive-CoF RL dataset, allowing the model to master an adaptive strategy. Our experiments show Adaptive-CoF achieves superior performance with exceptional efficiency. On the V* benchmark, it reduces zoom-in operations by 75% compared to proactive models and achieves comparable even better accuracy with nearly 50% fewer tokens, establishing a new paradigm for efficient and accurate VLMs.
 </details>
 
 ## Visual Search Agent
@@ -165,7 +165,16 @@ bash ./slurm_jobs/eval/metrics_vstar.sh
 ```
 
 
+### Adaptive Performance
 
+Adaptive-CoF adjusts its zoom-in scope based on image clarity at different resolutions.
+![adaptive_case_1](./assets/adaptive_case_1.png)
+
+Adaptive-CoF transitions from iterative zooming to direct observation as resolution increases.
+![adaptive_case_2](./assets/adaptive_case_2.png)
+
+Adaptive-CoF Case studies demonstrating Adaptive-CoF’s ability to adapt its reasoning strategy. It handles simple tasks directly (top), uses a single zoom for moderately challenging tasks (middle), and engages in complex, iterative visual search for difficult, fine-grained queries (bottom).
+![adaptive_case_3](./assets/adaptive_case_3.png)
 
 
 ## Citation
