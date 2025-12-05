@@ -168,13 +168,13 @@ bash ./slurm_jobs/eval/metrics_vstar.sh
 ### Adaptive Performance
 
 Adaptive-CoF adjusts its zoom-in scope based on image clarity at different resolutions.
-![adaptive_case_1](./assets/adaptive_case_1.png)
+<img src="./assets/adaptive_case_1.png" width="80%" />
 
 Adaptive-CoF transitions from iterative zooming to direct observation as resolution increases.
-![adaptive_case_2](./assets/adaptive_case_2.png)
+<img src="./assets/adaptive_case_2.png" width="80%" />
 
 Adaptive-CoF Case studies demonstrating Adaptive-CoF’s ability to adapt its reasoning strategy. It handles simple tasks directly (top), uses a single zoom for moderately challenging tasks (middle), and engages in complex, iterative visual search for difficult, fine-grained queries (bottom).
-![adaptive_case_3](./assets/adaptive_case_3.png)
+<img src="./assets/adaptive_case_3.png" width="80%" />
 
 
 ## Citation
