@@ -2,7 +2,7 @@
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; text-align: left;">
     <img src="assets/icon.png" alt="logo" height="80" style="margin-right: 20px;">
     <h1 style="font-size: 40px; font-weight: bold; margin: 0;">
-      Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL
+      Adaptive Chain-of-Focus Reasoning via Dynamic Visual Search and Zooming for Efficient VLMs
     </h1>
   </div>
 
@@ -10,7 +10,7 @@
   <br>
 
 
-  <a href="https://arxiv.org/abs/2505.15436v1">
+  <a href="https://arxiv.org/abs/2505.15436v2">
     <img src="https://img.shields.io/badge/ArXiv-CoF-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://cof-reasoning.github.io/">
@@ -172,7 +172,7 @@ bash ./slurm_jobs/eval/metrics_vstar.sh
 If you find our project helpful, please consider citing it using the following reference:
 ```bibtex
 @article{zhang2025chain,
-      title={Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL},
+      title={Adaptive Chain-of-Focus Reasoning via Dynamic Visual Search and Zooming for Efficient VLMs},
       author = {Zhang, Xintong and Gao, Zhi and Zhang, Bofei and Li, Pengxiang and Zhang, Xiaowen and Liu, Yang and Yuan, Tao and Wu, Yuwei and Jia, Yunde and Zhu, Song-Chun and Qing Li},
       journal={arXiv preprint arXiv:2505.15436},
       year={2025}
